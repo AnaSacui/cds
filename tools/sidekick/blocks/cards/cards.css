@@ -1,0 +1,9 @@
+.location-cards {
+    background-color: hotpink;
+}
+
+div.location-cards picture img {
+    object-position: center;
+    object-fit: cover;
+    height: 425px;
+}

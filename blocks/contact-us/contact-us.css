@@ -1,0 +1,11 @@
+div.contact-us {
+    text-align: center;
+}
+
+p:first-child {
+    font-weight: 800;
+}
+
+p.button-container a.button {
+    background-color: orange;
+}
