@@ -1,0 +1,28 @@
+.contact-cards-container {
+    background-color: rgba(239, 243, 244, 1);
+}
+
+.contact-cards {
+    display: inline-flex;
+}
+
+.contact-cards div div p:first-child {
+    font-size: 18px;
+    color: black;
+}
+
+.contact-cards div div p {
+    color: rgba(72, 72, 72, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-cards div p.button-container a.button {
+    text-decoration: none;
+    color: rgba(0, 82, 115, 1);
+    background-color: transparent;
+    font-weight: 300;
+    padding: 0px;
+    margin:0;
+    font-weight: 300;
+}
