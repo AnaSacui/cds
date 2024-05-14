@@ -31,3 +31,13 @@
     color: rgba(72, 72, 72, 1);
     margin: 0;
 }
+
+.location-card-image:first-of-type{
+    background-color: hotpink;
+    padding: 50px;
+}
+
+.location-card-image:nth-last-of-type(even){
+    background-color: lightblue;
+    padding: 50px;
+}
