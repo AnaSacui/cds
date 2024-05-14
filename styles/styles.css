@@ -212,10 +212,58 @@ main .section.highlight {
 /* *************** */
 /* Contact Us Page */
 /* *************** */
-div.contact-us-contact-cards {
-  text-align: center;
-  background-color: rgba(239, 243, 244, 1);
-}    
+
+/* Location Cards */
+div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div:first-child {
+  margin-bottom: 100px;
+}
+
+div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child picture img{
+  object-position: center;
+  object-fit: cover;
+  border-radius: .25rem;
+}
+
+div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child picture:first-child img{
+  width: 59%;
+  height: 425px;
+}
+
+div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child picture:nth-child(even) img {
+  width: 40%;
+  height: 425px;
+}
+
+div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:nth-child(even) img{
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 425px;
+  border-radius: .25rem;
+}
+
+div.contact-us-location-cards h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+div.contact-us-location-cards p.button-container a {
+  font-size: 16px;
+    background-color: transparent;
+    color: black;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+div.contact-us-location-cards p{
+  color: rgba(72, 72, 72);
+  line-height: 1.25rem;
+  font-size: 16px;
+  margin: 0;
+}
 
 /* Contact Us CTA */
 div.contact-us-header h3 {
@@ -223,6 +271,12 @@ div.contact-us-header h3 {
   font-weight: 700;
   text-align: center;
 }
+
+/* Contact Cards */
+div.contact-us-contact-cards {
+  text-align: center;
+  background-color: rgba(239, 243, 244, 1);
+}    
 
 div.contact-us-contact-cards.columns-container {
   padding-top: 0px;
