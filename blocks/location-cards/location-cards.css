@@ -41,3 +41,8 @@
     background-color: lightblue;
     padding: 50px;
 }
+
+.location-cards ul li:nth-child(even){
+    width: 50px;
+    overflow: scroll;
+}

@@ -208,3 +208,55 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/* *************** */
+/* Contact Us Page */
+/* *************** */
+div.contact-us-contact-cards {
+  text-align: center;
+  background-color: rgba(239, 243, 244, 1);
+}    
+
+/* Contact Us CTA */
+div.contact-us-header h3 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+div.contact-us-contact-cards.columns-container {
+  padding-top: 0px;
+}
+
+div.contact-us-contact-cards p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2rem;
+  margin: 0;
+}
+
+div.contact-us-contact-cards p:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-top: 5px;
+  margin: 0;
+}
+
+div.contact-us-contact-cards p.button-container {
+  margin: 0;
+}
+
+div.contact-us-contact-cards p.button-container a {
+  font-size: 14px;
+    background-color: transparent;
+    color: rgb(0,82,115);
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

@@ -2,10 +2,35 @@ div.contact-us {
     text-align: center;
 }
 
-p:first-child {
-    font-weight: 800;
+div.contact-us p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2rem;
+    margin: 0;
 }
 
-p.button-container a.button {
+div.contact-us p:nth-child(2) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 5px;
+}
+
+div.contact-us p.button-container a.button {
+    margin-top: 30px;
     background-color: orange;
+    padding: 10px 20px;
+    border-radius: .25rem;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0;
+}
+
+
+div.contact-us p.button-container a.button:hover {
+    background-color: white; 
+    color: lightslategray;
+    border: 1px solid lightslategray;
+    transition-duration: .4s;
+    padding: 11px 21px;
 }
