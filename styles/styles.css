@@ -314,3 +314,20 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+@media (max-width: 768px) {
+  div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child picture:first-child img,
+  div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child picture:nth-child(even) img {
+    width: 100%;
+  }
+
+  div.contact-us-location-cards > div.columns-wrapper > div.columns-2-cols > div > div:first-child {
+    margin-bottom: 100px;
+  }
+}
