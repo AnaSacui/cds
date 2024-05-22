@@ -44,7 +44,7 @@ async function createSelectMap(jsonURL) {
   optionsMap.set('all', 'allSections');
   optionsMap.set('business', 'business');
   optionsMap.set('mps', 'mps');
-  optionsMap.set("speaker's election", "speaker's election");
+  optionsMap.set('speaker', "speaker's election");
   const select = document.createElement('select');
   select.id = 'section';
   select.name = 'section';
