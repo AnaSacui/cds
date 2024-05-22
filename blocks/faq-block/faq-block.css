@@ -1,0 +1,13 @@
+.faq table, th {
+    border: 1px solid black;
+    background-color:cornflowerblue;
+}
+.faq table, td {
+    border: 1px solid black;
+    background-color:aliceblue;
+}
+
+.faq .section-select>select{
+    width: 40%;
+    font-size: large;
+}
