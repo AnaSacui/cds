@@ -1,13 +1,13 @@
-.faq table, th {
+.countries table, th {
     border: 1px solid black;
     background-color:cornflowerblue;
 }
-.faq table, td {
+.countries table, td {
     border: 1px solid black;
     background-color:aliceblue;
 }
 
-.faq .region-select>select{
+.countries .region-select>select{
     width: 40%;
     font-size: large;
 }
