@@ -1,0 +1,18 @@
+.display-faqs {
+    margin-bottom: 150px;
+}
+
+.display-faqs h2 {
+    line-height: 48px;
+    font-weight: 800;
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+.display-faqs h4 {
+    font-size: 24px;
+}
+
+.display-faqs p {
+    font-size: 18px;
+}
