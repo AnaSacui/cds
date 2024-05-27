@@ -1,18 +1,21 @@
-.display-faqs {
+.display-faqs--container {
     margin-bottom: 150px;
 }
 
-.display-faqs h2 {
+.display-faqs--container h2 {
     line-height: 48px;
     font-weight: 800;
     font-size: 32px;
+}
+
+.display-faqs--container h2:not(:first-child) {
     margin-top: 100px;
 }
 
-.display-faqs h4 {
+.display-faqs--container h4 {
     font-size: 24px;
 }
 
-.display-faqs p {
+.display-faqs--container p {
     font-size: 18px;
 }

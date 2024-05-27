@@ -36,21 +36,14 @@ async function createTable(jsonURL, val) {
 
   const resp = await fetch(pathname);
   const json = await resp.json();
-  console.log('=====JSON=====> {} ', json);
 
-  /*
-  const table = document.createElement('table');
-  json.data.forEach((row, i) => {
-    createTableRow(table, row, i + 1);
-  });
-*/
   const sectionContainer = document.createElement('div');
+  sectionContainer.classList.add('display-faqs--container');
   let sectionText = '';
 
   json.data.forEach((row, i) => {
     if (sectionText != row.Section) {
       let section = document.createElement('h2');
-      console.log('sectionText --- ', sectionText);
       section.appendChild(document.createTextNode(row.Section));
       sectionContainer.appendChild(section);
 
