@@ -341,21 +341,21 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
   margin-bottom: 150px;
 }
 
-.blog-article h5 {
+.blog-article h4 {
   color: #17537D;
   font-size: 24px;
 }
 
-.blog-article h5 a {
+.blog-article h4 a {
   padding-bottom: 10px;
   border-bottom: 2px solid #17537D;
 }
 
-.blog-article h5 a:hover {
+.blog-article h4 a:hover {
   text-decoration: none;
 }
 
-.blog-article h3 {
+.blog-article h2 {
   background-color: #EFF3F4;
   padding: 80px 27px;
   margin: 80px 0px;
@@ -369,7 +369,7 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
   margin-top: 50px;
 }
 
-.blog-article h4 {
+.blog-article h3 {
   font-weight: 400;
   margin: 60px auto;
   color: #17537D;
