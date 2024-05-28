@@ -372,7 +372,7 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
 .blog-article h4 {
   font-weight: 400;
   margin: 60px auto;
-  color: steelblue;
+  color: #2886BB;
   font-size: 26px;
 }
 
@@ -391,6 +391,6 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
 }
 
 .blog-article p strong{
-  color: steelblue;
+  color: #2886BB;
   font-weight: 400;
 }
