@@ -342,13 +342,13 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
 }
 
 .blog-article h5 {
-  color: #2886BB;
+  color: #035fe6;
   font-size: 24px;
 }
 
 .blog-article h5 a {
   padding-bottom: 10px;
-  border-bottom: 2px solid #2886BB;
+  border-bottom: 2px solid #035fe6;
 }
 
 .blog-article h5 a:hover {
@@ -372,7 +372,7 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
 .blog-article h4 {
   font-weight: 400;
   margin: 60px auto;
-  color: #2886BB;
+  color: #035fe6;
   font-size: 26px;
 }
 
@@ -391,6 +391,6 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
 }
 
 .blog-article p strong{
-  color: #2886BB;
+  color: #035fe6;
   font-weight: 400;
 }
