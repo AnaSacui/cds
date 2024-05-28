@@ -17,7 +17,7 @@ div.cta p:nth-child(2) {
 
 div.cta p.button-container a.button {
     margin-top: 30px;
-    background-color: orange;
+    background-color: #ffa500;
     padding: 10px 20px;
     border-radius: .25rem;
     font-weight: 600;
@@ -36,6 +36,11 @@ div.cta p.button-container a.button:hover {
 }
 
 div.filled-background.cta-container {
-    background-color: #2886BB;
+    background-color: #17537D;
     color: white;
+}
+
+div.filled-background.cta-container p.button-container a.button {
+    background-color: #ff8800;
+    color: black;
 }
