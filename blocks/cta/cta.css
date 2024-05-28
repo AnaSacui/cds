@@ -34,3 +34,8 @@ div.cta p.button-container a.button:hover {
     transition-duration: .4s;
     padding: 11px 21px;
 }
+
+div.filled-background.cta-container {
+    background-color: #2886BB;
+    color: white;
+}

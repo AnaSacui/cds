@@ -331,3 +331,66 @@ div.contact-us-contact-cards > div.columns-wrapper > div.columns-2-cols > div {
     margin-bottom: 100px;
   }
 }
+
+
+/* *************** */
+/* Article Page */
+/* *************** */
+
+.blog-article {
+  margin-bottom: 150px;
+}
+
+.blog-article h5 {
+  color: #2886BB;
+  font-size: 24px;
+}
+
+.blog-article h5 a {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #2886BB;
+}
+
+.blog-article h5 a:hover {
+  text-decoration: none;
+}
+
+.blog-article h3 {
+  background-color: #EFF3F4;
+  padding: 80px 27px;
+  margin: 80px 0px;
+  font-weight: 400;
+}
+
+.blog-article h1 {
+  font-weight: 600;
+  font-size: 54px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.blog-article h4 {
+  font-weight: 400;
+  margin: 60px auto;
+  color: steelblue;
+  font-size: 26px;
+}
+
+.blog-article img {
+  border-radius: .25rem;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.blog-article p:has(img) {
+  text-align: center;
+}
+
+.blog-article p {
+  font-size: 18px;
+}
+
+.blog-article p strong{
+  color: steelblue;
+  font-weight: 400;
+}
